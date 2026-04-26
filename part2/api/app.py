@@ -4,7 +4,7 @@ import sys
 
 app = FastAPI()
 
-REDIS_HOST = "localhost"
+REDIS_HOST = "redis"
 REDIS_PORT = 6379
 
 print("=" * 60, file=sys.stderr)
